@@ -1,0 +1,142 @@
+ 
+body {  
+    background-color: antiquewhite;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align:center;
+    text-decoration: underline;
+    font-size: 2.2em;
+    color: rgb(7, 6, 89);
+    margin: 2rem;
+}
+
+h2 {
+    text-align:center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: rgb(7, 6, 89);
+    margin: 2rem;
+}
+
+.formContainer {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.formContainer input {
+    border: 1px solid rgb(71 3 144 / 59%);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+#submitDiv{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#submitForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 3, 144);
+    border: 2px solid rgb(71, 3, 144);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.6rem;
+    margin: auto;
+    cursor: pointer;
+} 
+
+#submitForm:hover {
+    background-color: rgb(7, 6, 89);
+    border: 2px solid rgb(7, 6, 89);
+}
+
+#deleteBtn{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: rgb(233, 26, 26); 
+    border-radius: 0.5rem;
+    border: 2px solid rgb(233, 26, 26);
+    color: rgb(255, 255, 255);
+    padding: 0.6rem;
+    margin: auto;
+    cursor: pointer;
+}
+#deleteBtn:hover {
+    background-color: rgb(214, 0, 0);
+    border: 2px solid rgb(45, 26, 218);
+}
+
+.displayResults{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto; 
+    padding: 10px;
+    margin-bottom: 3rem;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 3rem;
+    color: white;
+    background: #470390;
+    border: 3px solid #f30000;
+}
+
+.newVisitor{
+    display: none;    
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #470390;
+    background: #4df55e;
+    border: 3px solid #470390;
+    border-radius: 5px;
+}
+
+td {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #c4afdb;
+}
+
+caption{
+    display: none;
+}

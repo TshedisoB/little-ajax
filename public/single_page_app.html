@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./lib/timepicker.css">
+    <script type="text/javascript" src="./lib/timepicker.js"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <h1 id="heading">Add a little Ajax</h1>
+    <div class="formContainer">
+        <form >
+            <label for="name">Full Name:</label><br>
+            <input required id="name" type="text" name="name" value="" placeholder="e.g. Tshediso Boshiana" autofocus><br>
+            <label for="age">Age:</label><br>
+            <input required id="age" type="number" name="age" value="" placeholder="e.g. 24"><br>
+            <label for="date">Date of Visit:</label><br>
+            <input required id="date" type="text" name="date" value="" placeholder="YYYY-MM-DD"><br>
+            <label for="time">Time of Visit:</label><br>
+            <input required id="time" type="text" name="time" value="" placeholder="HH:MM"><br>
+            <label for="assistedBy">Assisted By:</label><br>
+            <input required id="assistedBy" type="text" name="assistedBy" value="" placeholder="e.g. Lerato"><br>
+            <label for="comments">Comments:</label><br>
+            <input required id="comments" type="text" name="comments" value="" placeholder="e.g. Asked about full Stack web development course"><br>
+            <input id="submitForm" type="submit" onclick="addVisitor()">
+            <div class="newVisitor"></div>
+        </form>
+    </div>
+
+    <div class="displayResults">
+        <h2>List of visitors</h2>
+        <table class="table">
+            <caption>database results</caption> 
+           <tbody class="visitorsData"></tbody>
+        </table>
+    </div>
+    <div class="message"></div>
+    <div class="timepicker"></div>
+
+    <script src="./scripts/ajax_call.js"></script> 
+</body>
+</html>
