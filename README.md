@@ -1,6 +1,6 @@
 # Project Showcase: `Little Ajax`
 
-![Image demonstration](./assets/appDemo.png)
+![Image demonstration](./public/images/littleAjax.png)
 
 
 # How to install and run the project
