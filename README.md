@@ -14,7 +14,7 @@ The project involves creating a static web page form that utilizes Express.js an
 
 ## Technologies Used
 
-- **JavaScript:** A JavaScript library for building mobile user interfaces.
+- **JavaScript:** Programming language used for developing web applications.
 - **CSS:** Custom styling for the overall appearance.
 - **Postgresql:** For storing form input to the database
 - **Express**: A fast, unopinionated, minimalist web framework for Node.js.
